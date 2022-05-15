@@ -1,0 +1,14 @@
+* { padding: 0; margin: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+body{
+    color: #666;
+    letter-spacing: -0.3px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+header{z-index: 999; position: fixed; top: 0; display: flex; width: 100vw; height: 100px; border-bottom: 1px solid rgb(210, 210, 210); background-color: rgb(255, 255, 255); justify-content: space-between; align-items: center;}
+.logo > a>img{width: 240px;}
+#menu, #nav2{display: flex; cursor: pointer;}
+#menu > li{width: 120px; text-align: center; height: 40px; line-height: 40px; }
+#nav2>li{width: 100px; text-align: center; height: 40px; line-height: 40px; }

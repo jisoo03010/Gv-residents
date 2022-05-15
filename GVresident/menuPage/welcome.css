@@ -1,0 +1,64 @@
+
+
+#welcome_img {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 440px;
+    overflow: hidden;
+}
+
+#welcome_img>img {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -21%);
+
+}
+
+.up_bg_box {
+    position: absolute;    
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 440px;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.up_bg_box>p {
+    line-height: 520px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+/* 소개 글*/
+.about_us{
+    width: 100vw;
+    position: relative;
+    height: 1000px;
+    background-color: black;
+    top: 440px;
+    line-height: 200px;
+}
+#title{font-size: 34px;text-align: center;
+    color: white;}
+.contents_text{
+    position: relative;
+    bottom: 148px;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    height: 26px;
+    text-align: center;
+}
+
+/*aboutUs_img*/
+
+#aboutUs_img{
+    width: 700px;
+    height: 800px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
